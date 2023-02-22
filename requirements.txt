@@ -1,0 +1,9 @@
+numpy
+dlib
+opencv_python
+imutils
+flask
+dlib
+time
+asyncio
+pygame
