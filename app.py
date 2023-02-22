@@ -218,6 +218,7 @@ def video_feed():
     print("open camera")
     return Response(detech(), mimetype='multipart/x-mixed-replace;boundary=frame')
 
+
 @app.route("/")
 def home():
     return render_template("index.html")
